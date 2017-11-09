@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Webburza\Sylius\WishlistBundle\Resolver;
 
 use Sylius\Bundle\CoreBundle\Form\Type\Order\AddToCartType;

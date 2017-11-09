@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Webburza\Sylius\WishlistBundle\EventListener;
 
 use Sylius\Bundle\UiBundle\Menu\Event\MenuBuilderEvent;

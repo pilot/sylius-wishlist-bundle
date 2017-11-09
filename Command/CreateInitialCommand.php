@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Webburza\Sylius\WishlistBundle\Command;
 
 use Sylius\Component\User\Repository\UserRepositoryInterface;
