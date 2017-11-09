@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Webburza\Sylius\WishlistBundle\Form\Type;
 
 use Sylius\Bundle\ResourceBundle\Form\Type\AbstractResourceType;

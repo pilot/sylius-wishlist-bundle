@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Webburza\Sylius\WishlistBundle\Resolver;
 
 use Sylius\Bundle\CoreBundle\Form\Type\Order\AddToCartType;
@@ -8,7 +10,7 @@ use Sylius\Component\Core\Model\OrderItemInterface;
 use Sylius\Component\Core\Model\ProductInterface;
 use Sylius\Component\Core\Model\ProductVariantInterface;
 use Sylius\Component\Order\Context\CartContextInterface;
-use Sylius\Component\Order\Factory\AddToCartCommandFactoryInterface;
+use Sylius\Bundle\OrderBundle\Factory\AddToCartCommandFactoryInterface;
 use Sylius\Component\Resource\Repository\RepositoryInterface;
 use Symfony\Component\Form\FormFactoryInterface;
 use Symfony\Component\HttpFoundation\Request;

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Webburza\Sylius\WishlistBundle\Factory;
 
 use Sylius\Component\Resource\Factory\FactoryInterface;
