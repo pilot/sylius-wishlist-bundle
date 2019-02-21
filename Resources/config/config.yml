@@ -29,7 +29,6 @@ doctrine:
                         mapping: true
 
         resolve_target_entities:
-            Sylius\Component\Core\Model\ShopUserInterface: '%sylius.model.shop_user.class%'
             Webburza\Sylius\WishlistBundle\Model\WishlistInterface: '%webburza_wishlist.model.wishlist.class%'
             Webburza\Sylius\WishlistBundle\Model\WishlistItemInterface: '%webburza_wishlist.model.wishlist_item.class%'
 
